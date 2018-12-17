@@ -8,6 +8,7 @@ const service = require('../services/user.service');
 router.post('/register',joi(schema.userSchema),service.addUser);
 router.post('/login',service.loginUser);
 // router.post('/login',service.loginUser);
+//Testing
 
 
 module.exports = router;
